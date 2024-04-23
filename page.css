@@ -5,20 +5,20 @@
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background-color: gold;
-    color: rgb(43, 43, 43);
+    background-color:chartreuse;
+    color: lightseagreen;
 }
 
 html{
     margin: 0;
     overflow-x: hidden;
     scrollbar-width: 1px;
-    background-color: black;
+    background-color: wheat;
     color:rgb(43, 43, 43);
 }
 body{
     margin: 0px;
-    background-color: gold;
+    background-color: lightseagreen;
 }
 
 .jumbo{
@@ -30,16 +30,20 @@ body{
 
 #workspace1{
     background-color: rgb(43, 42, 42);
-    color:crimson;
+    color: rgb(228, 227, 227);
     padding: 2%;
     margin: 1%;
     border-radius: 4px;
 }
 
 .anSpace{
-    background-color: rgb(43, 42, 42);
-    color: whitesmoke;
+    background-color: darkmagenta;
+    /* rgb(43, 42, 42); */
+    color:darkred;
+    /* rgb(228, 227, 227); */
     padding: 20px;
+    font-family: 'Verdana';
+    font-weight: bold;
     margin: 1%;
     border-radius: 4px;
     align-items: center;
@@ -57,12 +61,11 @@ body{
 }
 
 .link{
-    color: orangered;
+    color: lightseagreen;
 }
 
 code{
-    font-family:'Courier New', Courier, monospace ;
-    /* background-color: grey; */
+    font-family:'Courier New';
     padding: 2px;
     /* border-radius: 3px; */
     color: rgb(109, 109, 109);
@@ -90,12 +93,12 @@ table,thead, tbody, tr, th, td{
     border: none;
 }
 tr{
-    background-color: orangered;
-    color:black;
+    background-color:blue;
+    color:rgb(228, 227, 227)
 }
 tr:nth-child(odd){
-    background-color:aqua;
-    color:darkred;
+    background-color:orangered;
+    color:rgb(43, 42, 42)
 }
 
 button{
@@ -106,6 +109,7 @@ button{
     
     justify-content: center
 }
+
 
 
 /* width */
@@ -121,10 +125,10 @@ button{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: lightseagreen;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: darkmagenta;
   }
